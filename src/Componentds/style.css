@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 100vw;
+    height: 5vh;
+    position: sticky;
+    offset: 0;
+    z-index: 1;  
+    margin: auto;
+    background-color: black;
+
+    
+}
+.navbar>div{
+    margin: auto;
+}
+
+.navbar>div>.link{
+    text-decoration:solid;
+    padding : 15px;
+    color: aliceblue;
+}
+
+
+
+.home{
+    background-image: url("https://wallpapercave.com/wp/hVS595n.jpg");
+    display:flex;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    width:100vw;
+    height: 100vh;
+    position:fixed;
+    
+    color: aliceblue;
+}
+
+.about{
+    background-image: url("https://getwallpapers.com/wallpaper/full/6/d/b/402376.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    width:100vw;
+    height: 100vh;
+    position:fixed;
+    display:flex;
+    flex-direction: row;
+    color: aliceblue;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+
+.contacts{
+    width:40vw;
+    margin-top: 35vh;
+    margin-left: 10vw;
+}
+
+.contacts>h1{
+text-align: center;
+}
+
+.logoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
+
+}
+
+.logoContainer>a{
+    padding-left: 30px;
+}
+
+.logos{
+    width:30px;
+    height: 30px;
+}
+
+.footer{
+    
+    position:fixed;
+   
+    left:49%;
+    
+    
+    
+    bottom: 0;
+}
+
+#num{
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+.logosfooter{
+height: 20px;
+width:20px;
+
+}
+
+
+
+
+.aboutcontent{
+    width: 30vw;
+    
+}
+.skills{
+    width: 30vw;
+    border: 2px solid aliceblue;
+    margin-right: 20px;
+    margin-top: 30vh;
+    padding: 5px;
+
+}
+
+.aboutcontent>span>h3{
+    display: inline;
+    border: 2px solid aliceblue;
+    padding: 5px 10px;
+    }
+
+.skills>li>b{
+     color: #007bff;
+}
+
+.details>.ques{
+    display: flex;
+    justify-content: space-between;
+    color: #007bff;
+
+    padding-left: 40px;
+    padding-right: 100px;
+}
+
+.details>.ans{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 100px;
+}
